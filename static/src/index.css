@@ -1,0 +1,21 @@
+.container {
+	height: 500px;
+	display: grid;
+  	grid-template-columns: repeat(10, 1fr);
+}
+
+#map {
+	grid-column: 1 / 7;
+}
+
+.list-group {
+	grid-column: 7 / 10;
+	overflow: auto;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+.list-group-item:hover {
+    background-color: #eee;
+}
